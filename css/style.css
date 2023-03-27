@@ -349,10 +349,11 @@ header nav ul li:last-of-type a{
     padding-bottom: 140px;
 }
 .past_clients .container{
-    max-width: 441px;
+    max-width: 1168px;
     margin: auto;
     box-sizing: border-box;
     text-align: center;
+
 }
 .past_clients .container h3{
     font-family: 'Poppins', sans-serif;
