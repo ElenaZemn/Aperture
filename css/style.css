@@ -60,6 +60,7 @@ header nav ul li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner article{
     max-width: 580px;
@@ -100,6 +101,7 @@ header nav ul li:last-of-type a{
     align-items: center;
     padding-right: 62px;
     box-sizing: border-box;
+    position: relative;
 }
 .sunset article{
     max-width: 298px;
@@ -134,6 +136,7 @@ header nav ul li:last-of-type a{
     align-items: center;
     padding-right: 87px;
     box-sizing: border-box;
+    position: relative;
 
 }
 .monstera article{
@@ -170,6 +173,7 @@ header nav ul li:last-of-type a{
     align-items: center;
     padding-right: 119px;
     box-sizing: border-box;
+    position: relative;
 
 }
 .star article{
@@ -383,4 +387,131 @@ header nav ul li:last-of-type a{
     align-items: center;
 
 }
+/*.item_block{*/
+/*    background-color: red;*/
+/*    margin: 10px;*/
+/*    height: 100px;*/
+/*}*/
+/*.flex-container{*/
+/*    display: flex;*/
+/*}*/
 
+.tools{
+    position: relative;
+    min-height: 540px;
+    background-color: black;
+}
+.tools .by_img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../images/by_img.jpg");
+    background-size: cover;
+
+}
+.tools .container{
+    max-width: 1240px;
+    min-height: 540px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+}
+.bottom_icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    list-style: none;
+}
+.bottom_icons li{
+    margin-left: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+
+}
+.bottom_icons li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
+}
+.bottom_icons li:nth-child(2):before{
+    background-image: url("../images/IMAGE_2.svg");
+}
+.bottom_icons li:nth-child(3):before{
+    background-image: url("../images/IMAGE_3.svg");
+    width: 32px;
+}
+.bottom_icons li:nth-child(4):before{
+    background-image: url("../images/IMAGE_4.svg");
+    width: 10px;
+}
+.tools .container h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.tools .container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+}
+.tools .container p{
+    max-width: 514px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+
+}
+.tools .container a{
+
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 4px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+
+}
+.tools .container a::before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 6px;
+}
