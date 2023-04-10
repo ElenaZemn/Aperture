@@ -515,3 +515,125 @@ header nav ul li:last-of-type a{
     border-radius: 50%;
     margin-right: 6px;
 }
+/*footer*/
+footer{
+    background-color: black;
+    padding: 100px 0;
+}
+footer .container{
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .left_first p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
+footer .container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+footer .left_first img{
+    margin-bottom: 20px;
+
+
+}
+footer .left_first p a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .container:nth-child(2){
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 40px 0;
+    margin-bottom: 94px;
+}
+footer .right_first{
+    display: flex;
+
+
+}
+footer .right_first ul{
+    min-width: 220px;
+    margin-left: 15px;
+}
+footer .right_first ul li{
+    margin-bottom: 10px;
+}
+footer .right_first ul li:nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    text-decoration: none;
+    list-style: none;
+
+}
+footer .right_first ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+footer form{
+    width: 100%;
+    max-width: 458px;
+    height: 52px;
+    background: #F9FAFB;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 6px;
+    box-sizing: border-box;
+}
+footer form input{
+    line-height: 52px;
+    border: none;
+    background-color: transparent;
+    width: 85%;
+
+}
+footer form button{
+    width: 63px;
+    height: 30px;
+    background: #000000;
+    border-radius: 11px;
+    cursor: pointer;
+}
+footer .container:nth-child(3) ul{
+    display: flex;
+
+}
+footer .container:nth-child(3) ul li a{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+}
