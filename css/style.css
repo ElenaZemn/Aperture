@@ -646,3 +646,36 @@ footer .container:nth-child(3) ul li a{
 footer .container .icons{
     list-style: none;
 }
+/*@keyframes snaike {*/
+/*    0%{*/
+/*        position: absolute;*/
+/*    }*/
+/*     1%{*/
+/*        left: 5%;*/
+/*         bottom: 5%;*/
+
+
+/*    }*/
+/*    3%{*/
+/*        left: 20%;*/
+/*        bottom: 20%;*/
+
+/*    }*/
+/*    5%{*/
+/*        left: 5%;*/
+/*        bottom: 5%*/
+/*    }*/
+/*    7%{*/
+/*        left: 20%;*/
+/*        bottom: 20%;*/
+
+/*    }*/
+
+/*}*/
+/*.snaike{*/
+/*    width: 300px;*/
+/*    height: 1px;*/
+/*    background: green;*/
+/*    position: absolute;*/
+/*    animation: snaike infinite 15s;*/
+/*}*/
