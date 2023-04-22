@@ -387,6 +387,11 @@ header nav ul li:last-of-type a{
     align-items: center;
 
 }
+.logotype a{
+    max-width: 128px;
+    display: inline-block;
+}
+
 /*.item_block{*/
 /*    background-color: red;*/
 /*    margin: 10px;*/
@@ -679,3 +684,55 @@ footer .container .icons{
 /*    position: absolute;*/
 /*    animation: snaike infinite 15s;*/
 /*}*/
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.faq{
+    background-color: black;
+    padding: 50px 0;
+}
+.faq .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    border: solid 1px;
+    color: white;
+    padding: 20px;
+    border-radius: 0;
+}
+.faq .ui-accordion .ui-accordion-content{
+    background-color: transparent;
+    color: white;
+    border: solid 1px;
+    padding: 20px;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    border-bottom: none;
+}
+.faq  .ui-accordion .ui-accordion-content.ui-accordion-content-active{
+    border-top: none;
+}
+.faq .ui-accordion .ui-icon {
+    background-image: none;
+    text-indent: 0;
+    background-position: inherit;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}
+
+.faq .ui-accordion .ui-icon:before {
+    content: "\f054";
+    color: white;
+    top: 23px;
+    right: 20px;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon {
+    transform: rotate(90deg);
+    display: inline-block;
+    transition: 0.3s;
+}
